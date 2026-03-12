@@ -4,7 +4,7 @@ agent any
 stages{
     stage('Checkout')
       {
-      steps {https://github.com/ramakrishnanyadav/myrepo}
+      steps {'https://github.com/ramakrishnanyadav/myrepo.git'}
       }
     stage ('Publish'){
       steps {
