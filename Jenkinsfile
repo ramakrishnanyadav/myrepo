@@ -4,7 +4,7 @@ agent any
 stages{
     stage('Checkout')
       {
-      steps {https://github.com/JebaKishore18/Practice-Devops.git }
+      steps {https://github.com/ramakrishnanyadav/myrepo}
       }
     stage ('Publish'){
       steps {
