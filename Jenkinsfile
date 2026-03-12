@@ -4,9 +4,11 @@ agent any
 stages{
     stage('Checkout')
       {
-      steps {'https://github.com/ramakrishnanyadav/myrepo.git'}
+      steps {
+          git url: 'https://github.com/ramakrishnanyadav/myrepo.git'}
       }
-    stage ('Publish'){
+    stage ('Publish')
+    {
       steps {
         publishHTML([
           allowMissing:true,
